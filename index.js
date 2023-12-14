@@ -27,6 +27,7 @@ const renderPlayers = async () => {
       render();
       window.location.hash = player.id;
     });
+    
     return li;
   });
   $players.replaceChildren(...$playerListItems);
